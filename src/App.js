@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Textform from "./Components/Textform";
 import React, { useState } from 'react';
 import Alert from "./Components/Alert";
+import Footer from "./Components/Footer";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -49,12 +50,14 @@ function App() {
         {/* <Routes> */}
           {/* <Route path="/" element={<Textform showalert={showalert} heading="Enter The Text Below To Analize" mode={mode}/>}/> */}
           <div className="container my-4"></div>
-          <Textform showalert={showalert} heading ="Enter The Text Below To Analize" mode={mode }/>
+         <Textform showalert={showalert} heading="Enter The Text Below To Analize" mode={mode} />
           {/* <Route path="/about" element={<About />} /> */}
         {/* </Routes> */}
       {/* </BrowserRouter> */}
+      <Footer/>
+
     </>
-  );
+  ); 
 }
 
 export default App;
