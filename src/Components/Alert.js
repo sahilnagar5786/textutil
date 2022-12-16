@@ -13,10 +13,3 @@ export default Alert
 
 
 
-
-{/* <Navbar title="TextUtils" aboutText="About Us" mode={mode} togglemode={togglemode} />
-<Alert Alert ={alert}/>
-<div className="container my-4">
-  <Textform showalert={showalert} heading ="Enter The Text Below To Analize" mode={mode }/>
-  <About />
-</div> */}
